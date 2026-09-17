@@ -1,0 +1,53 @@
+body{
+font-family: Arial, sans-serif;
+line-height:1.6;
+margin:0;
+padding:0;
+}
+
+header{
+background:#222;
+color:white;
+padding:20px;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+padding:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+main{
+padding:20px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#eee;
+}
+
+input,
+textarea{
+width:100%;
+padding:10px;
+margin-bottom:15px;
+}
+
+button{
+padding:10px 20px;
+cursor:pointer;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus{
+outline:3px solid blue;
+}
