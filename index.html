@@ -8,16 +8,19 @@
 <meta name="viewport"
 content="width=device-width, initial-scale=1.0">
 
-<title>Tanishka Gadge Portfolio</title>
+<title>Home | Tanishka Gadge Portfolio</title>
 
 <meta name="description"
-content="Accessible personal portfolio website">
+content="Accessible portfolio website of Tanishka Gadge">
 
 <meta name="keywords"
-content="Portfolio, AI, Engineering">
+content="Portfolio, HTML5, CSS3, Accessibility">
 
 <meta name="author"
 content="Tanishka Gadge">
+
+<meta name="robots"
+content="index, follow">
 
 <link rel="stylesheet"
 href="style.css">
@@ -31,13 +34,14 @@ class="skip-link">
 Skip to Main Content
 </a>
 
-<header>
+<header role="banner">
 
 <div class="container">
 
 <h1>Tanishka Gadge</h1>
 
-<nav aria-label="Primary Navigation">
+<nav
+aria-label="Primary Navigation">
 
 <ul>
 <li><a href="index.html">Home</a></li>
@@ -52,37 +56,45 @@ Skip to Main Content
 
 </header>
 
-<main id="main-content">
+<main
+id="main-content"
+role="main">
 
 <section class="hero">
 
 <div class="container">
 
-<h2>Welcome</h2>
+<h2>Computer Engineering Student</h2>
 
 <p>
-Computer Engineering Student passionate about AI,
-Web Development and Technology.
+Passionate about Artificial Intelligence,
+Software Development and Technology.
 </p>
+
+<a href="projects.html"
+class="btn">
+View Projects
+</a>
 
 </div>
 
 </section>
 
-<section>
+<section class="section">
 
 <div class="container">
 
 <h2>Skills</h2>
 
-<div class="card">
+<div class="grid">
 
-<ul>
-<li>HTML5</li>
-<li>CSS3</li>
-<li>Java</li>
-<li>Artificial Intelligence</li>
-</ul>
+<div class="card">HTML5</div>
+
+<div class="card">CSS3</div>
+
+<div class="card">Java</div>
+
+<div class="card">Artificial Intelligence</div>
 
 </div>
 
@@ -92,7 +104,7 @@ Web Development and Technology.
 
 </main>
 
-<footer>
+<footer role="contentinfo">
 
 <p>
 © 2026 Tanishka Gadge
@@ -101,5 +113,4 @@ Web Development and Technology.
 </footer>
 
 </body>
-
 </html>
